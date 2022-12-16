@@ -1,0 +1,155 @@
+ol,ul{
+  list-style: none;  
+}
+#mainMenu {
+	display: flex;
+    align-items: right;
+	font-family: fantasy;
+    height: 100px;
+    
+}
+
+#mainMenu li {
+	display:block;
+	width:200px;
+    height: 70px;
+	float:left;
+	margin-left:20px;
+	border: none;
+   
+}
+
+#mainMenu a {
+	display: block;
+	padding:10px;
+    text-align: center;
+	text-decoration:none;
+	background-color: #25006e;
+	color: #dfc0fc;
+    font-size: 30px;
+    
+}
+
+
+#mainMenu a:hover {
+    width: 180px;
+    height: 45px;
+	background-color:#5004db;
+	color: #00ff6e;
+}	
+H1{
+    display: block;
+    align-items: right;
+    margin-left: 120px;
+    height: 80px;
+    font-family: fantasy;
+    font-size: 60px;
+    color: #00ff6e;
+  
+}
+H2{
+    display: block;
+    align-items: right;
+    margin-left: 120px;
+    height: 80px;
+    font-family: fantasy;
+    font-size: 30px;
+    color: aqua;
+    
+    
+}
+body{
+    background-image : url("../images/backG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #25006e;
+    
+}
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 65px;
+    width:50%;
+    width: 704px;
+    
+}
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 65px;
+    width:50%;
+    
+}
+.img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 65px;
+    width:50%;
+    
+}
+
+#fbtable{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 90%;
+
+    
+}
+.tableHead{
+    background-color:#82ff80;
+    font-size: 25px; 
+    
+    
+}
+.boardButton{
+  background-color: #dfc0fc; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+.tableRow{
+    background-color:#dfc0fc;
+    font-size: 25px;
+  
+    
+}
+.desc{
+    background-color: #272047;
+    color: aliceblue;
+    
+    
+}
+.characters{
+    height: 350px;
+    padding: 30px;
+    
+}
+.row{
+   display: flex;
+  
+    
+}
+.column{
+   flex: 33.33%;
+   padding: 5px;
+    
+}
+.frontimg{
+    width: 800px; 
+}
+#S1{
+    color: aqua;
+}
+
